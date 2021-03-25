@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hookah</string>
+    <string name="welcome">Welcome<br></br> to Hookah Helper!</string>
+    <string name="about">We created our application<br></br> to help new visitors<br></br> choose their first favorite combinations and show real connoisseurs new combinations from the world of hookah</string>
+    <string name="login">Please, Sign In into your Account</string>
+    <string name="forget">Forget your login or password?</string>
+    <string name="button_sign_in">Sign In</string>
+    <string name="button_sign_up">Sign Up</string>
+</resources>
