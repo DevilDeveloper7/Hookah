@@ -21,7 +21,7 @@
             android:layout_width="259dp"
             android:layout_height="302dp"
             app:srcCompat="@drawable/hookah"
-             />
+            android:contentDescription="TODO" />
 
         <TextView
             android:layout_width="wrap_content"
