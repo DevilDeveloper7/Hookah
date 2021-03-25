@@ -21,13 +21,13 @@
             android:layout_width="259dp"
             android:layout_height="302dp"
             app:srcCompat="@drawable/hookah"
-            android:contentDescription="TODO" />
+            />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/welcome"
-            android:textColor="@android:color/darker_gray"
+            android:textColor="@color/light_grey"
             android:layout_marginTop="40dp"
             android:textSize="30sp" />
 
@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="80dp"
             android:text="@string/login"
-            android:textColor="@android:color/darker_gray" />
+            android:textColor="@color/light_grey" />
 
     </LinearLayout>
     <LinearLayout
@@ -59,6 +59,8 @@
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:text="@string/button_sign_up"
+            android:background="@drawable/btn_ripple"
+            android:textColor="@color/light_grey"
             />
 
 
@@ -72,6 +74,9 @@
             android:layout_marginRight="20dp"
             android:layout_weight="1"
             android:text="@string/button_sign_in"
+            android:background="@drawable/btn_ripple"
+            android:textColor="@color/light_grey"
+            android:width="40dp"
 
 
             />
