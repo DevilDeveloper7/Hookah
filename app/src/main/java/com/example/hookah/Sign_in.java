@@ -2,10 +2,11 @@ package com.example.hookah;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.WindowManager;
 
-public class Sign_in extends AppCompatActivity {
+public class Sign_in extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

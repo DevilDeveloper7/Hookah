@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Hookah</string>
     <string name="welcome">Welcome<br></br> to Hookah Helper!</string>
     <string name="about">We created our application<br></br> to help new visitors<br></br> choose their first favorite combinations and show real connoisseurs new combinations from the world of hookah</string>
@@ -6,4 +6,10 @@
     <string name="forget">Forget your login or password?</string>
     <string name="button_sign_in">Sign In</string>
     <string name="button_sign_up">Sign Up</string>
+    <string name="Sign_in_email">Email</string>
+    <string name="Sign_in_pass">Password</string>
+    <string name="Sign_in_btn">Sign in</string>
+    <string name="let_s_sign_you_in" >Lets sign you in.</string>
+    <string name="welcome_back">Welcome back.</string>
+    <string name="you_ve_been_missed" >Youve been missed!</string>
 </resources>

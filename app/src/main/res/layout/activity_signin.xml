@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,33 +7,58 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/Hello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/let_s_sign_you_in" />
+
+        <TextView
+            android:id="@+id/Welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_back" />
+
+        <TextView
+            android:id="@+id/Miss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/you_ve_been_missed" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:orientation="vertical"
 
-
         >
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/emailField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="textEmailAddress"
+            android:hint="@string/Sign_in_email" />
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/passField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:hint="@string/Sign_in_pass"/>
 
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="@string/Sign_in_btn" />
     </LinearLayout>
-</RelativeLayout>
+</androidx.cardview.widget.CardView>
