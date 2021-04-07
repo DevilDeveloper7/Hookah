@@ -9,7 +9,7 @@
     <string name="Sign_in_email">Email</string>
     <string name="Sign_in_pass">Password</string>
     <string name="Sign_in_btn">Sign in</string>
-    <string name="let_s_sign_you_in" >Lets sign you in.</string>
+    <string name="let_s_sign_you_in">Lets sign you in.</string>
     <string name="welcome_back">Welcome back.</string>
-    <string name="you_ve_been_missed" >Youve been missed!</string>
+    <string name="you_ve_been_missed">Youve been missed!</string>
 </resources>
