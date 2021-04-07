@@ -25,8 +25,6 @@ public class MainActivity extends AppCompatActivity{
             public void onClick(View v) {
                 Intent sign_up = new Intent(MainActivity.this, Sign_up.class);
                 startActivity(sign_up);
-
-
             }
         });
         btnSignIn = (Button) findViewById(R.id.btnSignIn);
