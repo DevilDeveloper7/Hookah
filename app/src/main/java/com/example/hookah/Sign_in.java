@@ -8,6 +8,8 @@ import android.view.WindowManager;
 
 public class Sign_in extends Activity {
 
+    Edit
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
