@@ -43,18 +43,18 @@
                 android:id="@+id/emailField"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/Sign_in_pass"
+                android:hint="@string/Sign_in_email"
                 android:inputType="textPassword" />
 
             <EditText
                 android:id="@+id/passwordField"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/Sign_in_email"
+                android:hint="@string/Sign_in_pass"
                 android:inputType="textEmailAddress" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/buttonSignIn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Sign_in_btn" />
