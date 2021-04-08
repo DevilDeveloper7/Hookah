@@ -1,7 +1,5 @@
 package com.example.hookah;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,7 +9,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class Sign_in extends Activity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Sign_in extends AppCompatActivity {
 
     EditText username, password;
     Button btnSignIn;
@@ -23,10 +23,10 @@ public class Sign_in extends Activity {
         super.onCreate(savedInstanceState);
         getWindow ().setFlags (WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_signin);
+        setContentView(R.layout.activity_sign_in);
 
         username = (EditText) findViewById(R.id.emailField);
-        password = (EditText) findViewById(R.id.passwordField);
+        password = (EditText) findViewById(R.id.passField);
         btnSignIn = (Button) findViewById(R.id.btnSignIn);
         DB = new DBHelper(this);
 
