@@ -15,6 +15,11 @@
 
         </activity>
         <activity
+            android:name=".Questions"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        </activity>
+        <activity
             android:name=".Sign_in"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity

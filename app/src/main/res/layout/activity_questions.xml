@@ -23,40 +23,41 @@
             android:layout_height="50dp"
             android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/button7"
+            <ToggleButton
+                android:id="@+id/toggleButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="ToggleButton" />
 
-            <Button
-                android:id="@+id/button8"
+            <ToggleButton
+                android:id="@+id/toggleButton2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="ToggleButton" />
 
-            <Button
-                android:id="@+id/button9"
+            <ToggleButton
+                android:id="@+id/toggleButton3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="ToggleButton" />
 
-            <Button
-                android:id="@+id/button10"
+            <ToggleButton
+                android:id="@+id/toggleButton4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="ToggleButton" />
 
-            <Button
-                android:id="@+id/button11"
+            <ToggleButton
+                android:id="@+id/toggleButton5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="ToggleButton" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -64,40 +65,41 @@
             android:layout_height="48dp"
             android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/button12"
+            <ToggleButton
+                android:id="@+id/toggleButton9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="ToggleButton" />
 
-            <Button
-                android:id="@+id/button13"
+            <ToggleButton
+                android:id="@+id/toggleButton11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="ToggleButton" />
 
-            <Button
-                android:id="@+id/button14"
+            <ToggleButton
+                android:id="@+id/toggleButton12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="ToggleButton" />
 
-            <Button
-                android:id="@+id/button15"
+            <ToggleButton
+                android:id="@+id/toggleButton13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="ToggleButton" />
 
-            <Button
-                android:id="@+id/button16"
+            <ToggleButton
+                android:id="@+id/toggleButton14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="ToggleButton" />
+
         </LinearLayout>
     </LinearLayout>
 
